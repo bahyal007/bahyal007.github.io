@@ -5,51 +5,62 @@ body, h1, h2, p, ul, li {
 }
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
+  background-color: #f0f0f0;
+  color: #333;
 }
 
 /* Big Banner Styles */
 .banner {
-  background-color: #333;
+  background-color: #007bff;
   color: #fff;
   text-align: center;
   padding: 40px 0;
 }
 
 .banner h1 {
-  font-size: 36px;
+  font-size: 48px;
+  margin-bottom: 10px;
 }
 
 .banner p {
-  font-size: 20px;
+  font-size: 24px;
 }
 
 /* Section Styles */
 .section {
-  padding: 40px 20px;
+  padding: 60px 20px;
 }
 
 .section h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #007bff;
 }
 
 /* Project List Styles */
-.section ul {
+.projects-list {
   list-style: none;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
-.section li {
-  margin-bottom: 5px;
+.projects-list li {
+  margin-bottom: 10px;
 }
 
-.section li a {
+.projects-list li a {
   color: #007bff;
   text-decoration: none;
+  font-size: 20px;
 }
 
-.section li a:hover {
+.projects-list li a:hover {
   text-decoration: underline;
+}
+
+/* Container Styles */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
 }
